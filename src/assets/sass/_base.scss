@@ -17,4 +17,7 @@ body {
   font-size: 1.6rem;
   line-height: 1.6;
   box-sizing: border-box;
+  background-color: $color-primary;
+  color: $color-accent;
+  min-height: 100vh;
 }

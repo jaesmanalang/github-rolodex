@@ -1,0 +1,30 @@
+.search {
+  font-family: 'Nunito Sans', sans-serif;
+  text-align: center;
+  color: #fff;
+
+  &__group {
+    max-width: 400px;
+    margin: 0 auto;
+
+    &-input,
+    &-submit {
+      border: 1px transparent solid;
+      padding: .5rem;
+      font-size: 1.6rem;
+      outline: none;
+
+    }
+
+    &-input {
+      width: 80%;
+    }
+
+    &-submit {
+      padding: .5rem 2rem;
+      background: rgb(70, 86, 104);
+      color: #fff;
+      cursor: pointer;
+    }
+  }
+}
