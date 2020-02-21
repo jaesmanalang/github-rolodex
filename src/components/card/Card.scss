@@ -3,8 +3,10 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
+  min-height: 153px;
   background-color: #172a45;
   padding: 1rem;
+  overflow: hidden;
   cursor: pointer;
 
   &__img {
@@ -28,6 +30,10 @@
 
   &:hover &__user {
     color: #64ffda;
+  }
+
+  &:hover &__read-more {
+    color: #e6f1ff;
   }
 
 }

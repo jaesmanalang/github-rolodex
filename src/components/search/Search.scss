@@ -2,10 +2,12 @@
   font-family: 'Nunito Sans', sans-serif;
   text-align: center;
   color: #fff;
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 1rem;
 
   &__group {
-    max-width: 400px;
-    margin: 0 auto;
+    display: flex;
 
     &-input,
     &-submit {
@@ -17,14 +19,32 @@
     }
 
     &-input {
-      width: 80%;
+      flex: 1;
     }
 
     &-submit {
       padding: .5rem 2rem;
       background: rgb(70, 86, 104);
       color: #fff;
+      width: 15%;
       cursor: pointer;
+    }
+
+  }
+
+  &__clear-btn {
+    display: block;
+    width: 100%;
+    font-size: 1.6rem;
+    border: 1px transparent solid;
+    padding: .5rem;
+    margin-top: 1rem;
+    background-color: #a8b2d1;
+    color: #333f58;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #ccd6f6;
     }
   }
 }
