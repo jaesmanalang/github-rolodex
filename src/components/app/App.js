@@ -91,4 +91,4 @@ class App extends Component {
 
 export default App;
 
-// TODO: Continue search function, list of users in github etc.
+// TODO: Continue view profile 21. brad trav

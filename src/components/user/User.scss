@@ -1,8 +1,113 @@
 .user {
+  max-width: 1100px;
+  margin: 0 auto;
 
   &__link {
+    padding: 0 1rem;
     text-decoration: none;
     color: #637aac;
-    margin: 0 7rem;
+    margin-bottom: 1rem;
+    display: inline-block;
+
+    &:hover {
+      color: #496092;
+    }
+
+    &::after {
+      content: "|";
+    }
   }
+
+  &__card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 1rem;
+    background: #172a45;
+
+    &-avatar,
+    &-info {
+      padding: 1rem;
+      // background: #172a45;
+      min-height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+
+    }
+
+    &-avatar {
+      align-items: center;
+
+      &-photo {
+        max-width: 200px;
+      }
+    }
+
+    &-info {
+      align-items: flex-start;
+
+      &-bio {
+        text-align: justify;
+      }
+
+      &-url {
+        text-decoration: none;
+        background: rgb(1, 17, 26);
+        color: #a8b2d1;
+        padding: 1rem;
+
+        &:hover {
+          background: rgb(1, 8, 12);
+          color: #e6f1ff;
+        }
+      }
+    }
+  }
+
+  &__footer {
+    margin-top: 1rem;
+    padding: 3rem;
+    background: #172a45;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: #fff;
+
+    p {
+      padding: 0.5rem 1rem;
+      border-radius: 4px;
+    }
+
+    &-followers {
+      background: #0765bd;
+    }
+
+    &-following {
+      background: #b8890a;
+    }
+
+    &-repos {
+      background: #6b7185;
+    }
+
+    &-gists {
+      background: #343a49;
+    }
+  }
+}
+
+.text-white {
+  color: #e6f1ff;
+}
+
+.text-blur {
+  color: #a8b2d1;
+}
+
+.text-success {
+  color: #17fc7e;
+}
+
+.text-danger {
+  color: #f52b2b;
 }
