@@ -27,7 +27,7 @@ class App extends Component {
   }
 
   // Get single user
-  getUser = async (username) => {
+  getUser = async username => {
     this.setState({ loading: true });
     const res = await axios.get(
       `https://api.github.com/users/${username}?client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`
@@ -36,7 +36,7 @@ class App extends Component {
     this.setState({ user: res.data, loading: false });
   };
 
-  searchUser = async (text) => {
+  searchUser = async text => {
     this.setState({ loading: true });
     const res = await axios.get(
       `https://api.github.com/search/users?q=${text}&client_id=${process.env.REACT_APP_GITHUB_CLIENT_ID}&client_secret=${process.env.REACT_APP_GITHUB_CLIENT_SECRET}`
@@ -57,7 +57,7 @@ class App extends Component {
               <Route
                 exact
                 path="/"
-                render={(props) => (
+                render={props => (
                   <Fragment>
                     <Search
                       searchUser={this.searchUser}
@@ -72,7 +72,7 @@ class App extends Component {
               <Route
                 exact
                 path="/user/:login"
-                render={(props) => (
+                render={props => (
                   <User
                     {...props}
                     getUser={this.getUser}
@@ -90,5 +90,3 @@ class App extends Component {
 }
 
 export default App;
-
-// TODO: Continue view profile 21. brad trav

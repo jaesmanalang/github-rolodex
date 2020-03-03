@@ -65,16 +65,18 @@
   }
 
   &__footer {
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     padding: 3rem;
     background: #172a45;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     color: #fff;
 
     p {
       padding: 0.5rem 1rem;
+      margin-top: 1rem;
       border-radius: 4px;
     }
 
@@ -110,4 +112,54 @@
 
 .text-danger {
   color: #f52b2b;
+}
+
+@media(max-width: 769px) {
+  .back-to-search {
+    text-align: center;
+  }
+
+  .user__card-info-url {
+    font-size: 1.5rem;
+  }
+
+  .user__footer {
+    display: none;
+  }
+
+  .user__card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background: none;
+  }
+
+  .user__card-avatar,
+  .user__card-info {
+    background: #172a45;
+    padding: 1rem;
+    margin: 0.5rem;
+    width: 100%;
+  }
+
+  .user__card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    &-bio {
+      text-align: center;
+    }
+
+
+    &-url {
+      font-size: 1.6rem;
+      width: 90%;
+      text-align: center;
+    }
+  }
 }

@@ -28,15 +28,17 @@ export class User extends Component {
     if (loading) return <Spinner />;
     return (
       <div className="user">
-        <Link to="/" className="user__link">
-          <i className="fas fa-arrow-left"></i> Go Back
-        </Link>
-        Hireable:{' '}
-        {hireable ? (
-          <i className="fas fa-check text-success" />
-        ) : (
-          <i className="fas fa-times-circle text-danger" />
-        )}
+        <div className="back-to-search">
+          <Link to="/" className="user__link">
+            <i className="fas fa-arrow-left"></i> Go Back
+          </Link>
+          Hireable:{' '}
+          {hireable ? (
+            <i className="fas fa-check text-success" />
+          ) : (
+            <i className="fas fa-times-circle text-danger" />
+          )}
+        </div>
         <div className="user__card">
           <div className="user__card-avatar">
             <img
@@ -51,8 +53,10 @@ export class User extends Component {
           </div>
           <div className="user__card-info">
             <div className="user__card-info-bio">
-              <strong className="text-white">Bio</strong>
-              <p className="text-blur">{bio === null ? 'none' : bio}</p>
+              <strong className="text-white bio-title">Bio</strong>
+              <p className="text-blur bio-profile">
+                {bio === null ? 'none' : bio}
+              </p>
             </div>
 
             <div className="user__card-info-username">
