@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/github-rolodex/static/css/main.bb41f375.chunk.css",
+    "main.js": "/github-rolodex/static/js/main.d6bb695e.chunk.js",
+    "main.js.map": "/github-rolodex/static/js/main.d6bb695e.chunk.js.map",
+    "runtime-main.js": "/github-rolodex/static/js/runtime-main.0cb1e76c.js",
+    "runtime-main.js.map": "/github-rolodex/static/js/runtime-main.0cb1e76c.js.map",
+    "static/js/2.d34a5b81.chunk.js": "/github-rolodex/static/js/2.d34a5b81.chunk.js",
+    "static/js/2.d34a5b81.chunk.js.map": "/github-rolodex/static/js/2.d34a5b81.chunk.js.map",
+    "index.html": "/github-rolodex/index.html",
+    "precache-manifest.0cf992efcf0ca47479386a2fe1dcb8ce.js": "/github-rolodex/precache-manifest.0cf992efcf0ca47479386a2fe1dcb8ce.js",
+    "service-worker.js": "/github-rolodex/service-worker.js",
+    "static/css/main.bb41f375.chunk.css.map": "/github-rolodex/static/css/main.bb41f375.chunk.css.map",
+    "static/js/2.d34a5b81.chunk.js.LICENSE.txt": "/github-rolodex/static/js/2.d34a5b81.chunk.js.LICENSE.txt",
+    "static/media/spinner.gif": "/github-rolodex/static/media/spinner.95364159.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0cb1e76c.js",
+    "static/js/2.d34a5b81.chunk.js",
+    "static/css/main.bb41f375.chunk.css",
+    "static/js/main.d6bb695e.chunk.js"
+  ]
+}
