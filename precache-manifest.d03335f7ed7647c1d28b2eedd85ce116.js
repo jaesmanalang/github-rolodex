@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "d06224c66c7f0800e2e93cb17e8d634e",
+    "revision": "d0d70a5d031aebb83fd0db395334973e",
     "url": "/github-rolodex/index.html"
   },
   {
-    "revision": "34f867f3ef17aca50833",
+    "revision": "f886ad5fe0f42b12de4d",
     "url": "/github-rolodex/static/css/main.bb41f375.chunk.css"
   },
   {
-    "revision": "2fc16b8141a58e348a12",
-    "url": "/github-rolodex/static/js/2.d34a5b81.chunk.js"
+    "revision": "a182d5016eff1ee961c6",
+    "url": "/github-rolodex/static/js/2.2265fb77.chunk.js"
   },
   {
-    "revision": "c5930055a21c439b1783da4e9887b5d2",
-    "url": "/github-rolodex/static/js/2.d34a5b81.chunk.js.LICENSE.txt"
+    "revision": "928d7b5eb39d16fe9a880722c974b51e",
+    "url": "/github-rolodex/static/js/2.2265fb77.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "34f867f3ef17aca50833",
-    "url": "/github-rolodex/static/js/main.d6bb695e.chunk.js"
+    "revision": "f886ad5fe0f42b12de4d",
+    "url": "/github-rolodex/static/js/main.4412d378.chunk.js"
   },
   {
     "revision": "966c55962769b548ae87",
